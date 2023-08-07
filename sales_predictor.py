@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("C:\\Users\\IRFAN\\Downloads\\archive (6)\\business.retailsales.csv")
+data = pd.read_csv("business.retailsales.csv")
 
 prp = sklearn.preprocessing.LabelEncoder()
 
